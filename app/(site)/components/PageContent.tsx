@@ -17,7 +17,7 @@ const PageContent: React.FC<PageContentProps> = ({
   if (songs.length === 0) {
     return (
       <div className="mt-4 text-neutral-400">
-        No songs available.
+        Your Library横の+ボタンから音楽を追加できます。
       </div>
     )
   }
